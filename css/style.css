@@ -510,6 +510,7 @@ img {
 
     .showcase .showcase-form {
         text-align: center;
+        width: 100%;
         height: 100%;
     }
 
@@ -518,7 +519,8 @@ img {
     }
 
     .showcase .showcase-form button {
-        width: 40%;
+        /* width: 100px; */
+        /* padding: 1rem 2rem; */
         border-radius: 50px;
     }
 
@@ -556,10 +558,21 @@ img {
         gap: 6rem;
     }
 
+    .languages h2 {
+        font-size: 1.6rem;
+        color: #666;
+    }
+
     .languages .grid {
         grid-template-columns: repeat(2,1fr);
-        padding: 6rem 6rem 0;
+        padding: 4rem 4rem 0;
         row-gap: 4rem;
+    }
+
+    .languages .grid div {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .footer .grid {
