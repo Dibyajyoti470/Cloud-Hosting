@@ -524,6 +524,10 @@ img {
         border-radius: 50px;
     }
 
+    .showcase .bg-img {
+        width: 100%;
+    }
+
     .stats {
         padding-top: 5rem;
     }
